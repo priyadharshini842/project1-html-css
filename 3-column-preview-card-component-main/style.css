@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+display: grid;
+grid-template-columns: auto auto auto;    
+margin: 100px;
+width: 900px;
+height: 500px;
+
+#main{
+    background-color:orange;
+     color: white;
+     
+
+}
+#main1{
+    background-color:  darkcyan;
+    color: white;
+}
+#main2{
+    background-color:  rgb(6, 102, 102);
+    color: white;
+}
+img{
+    margin: 40px;
+}
+.one{
+    font-size: 30px;
+    margin: 30px;
+    font-family: https://fonts.google.com/specimen/Big+Shoulders+Display;
+}
+p{
+    margin: 40px;
+}
+input{
+    border-radius: 30px;
+    border-color: white;
+    height: 40px;
+    width: 150px;
+    margin: 40px;
+
+}
+@media screen and (max-width:375){
+    body {
+
+        display: grid;
+        grid-template-rows: auto auto auto;
+        width: 400px;
+        height: 800px;
+        margin: 100px;
+        padding: 50px;
+    }
+    
+    
+}
